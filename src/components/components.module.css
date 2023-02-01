@@ -1,0 +1,61 @@
+
+.modalWrapper {
+  width: 100%;
+  height: 100%;
+
+  background: rgba(0, 0, 0, 0.5);
+
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0; 
+}
+
+.modalWindow {
+  width: 600px;
+  height: 400px;
+
+  background-color: #fff;
+  border: 1px solid #000;
+  border-radius: 8px;
+
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);  
+
+  padding: 10px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.todoCard {
+  width: 80%;
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  border: 1px solid #000;
+  border-radius: 8px;
+
+  padding: 10px;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  gap: 10px
+}
+
+.flexList {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
